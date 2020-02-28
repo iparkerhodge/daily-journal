@@ -1,0 +1,14 @@
+#entryLog {
+    width: 40%;
+    text-align: center;
+}
+
+.journalEntry {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.date {
+    font-weight: bold;
+}
