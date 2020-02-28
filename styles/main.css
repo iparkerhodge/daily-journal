@@ -1,0 +1,22 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#FEFAE0, white);
+}
+
+.journal {
+    width: 40%;
+    text-align: center;
+}
+
+.image {
+    opacity: 0.9;
+}
