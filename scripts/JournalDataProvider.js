@@ -12,14 +12,21 @@ const journal = [
         date: "02/17/2020",
         concept: "HTML & CSS",
         entry: "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-        mood: "Ok"
+        mood: "ok"
     },
 
     {
-        date: "02/27/2020",
+        date: "02/24/2020",
         concept: "Modular JavaScript",
         entry: "We talked about using the single responsibility principle to create multiple .js files to perfrom a single function and importing those files into a main.js",
-        mood: "Ok"
+        mood: "sad"
+    },
+
+    {
+        date: "02/28/2020",
+        concept: "JavaScript",
+        entry: "Added JS to daily journal in order to render journal entries on the journal entries page",
+        mood: "happy"
     }
 ]
 
