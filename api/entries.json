@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "02/17/2020",
+      "concept": "HTML & CSS",
+      "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+      "mood": "ok"
+    },
+    {
+      "id": 2,
+      "date": "02/24/2020",
+      "concept": "Modular JavaScript",
+      "entry": "We talked about using the single responsibility principle to create multiple .js files to perfrom a single function and importing those files into a main.js",
+      "mood": "sad"
+    },
+    {
+      "id": 3,
+      "date": "02/28/2020",
+      "concept": "JavaScript",
+      "entry": "Added JS to daily journal in order to render journal entries on the journal entries page",
+      "mood": "happy"
+    },
+    {
+      "date": "2020-03-11",
+      "concept": "APIs",
+      "entry": "Today I learned how to set up a local API using JSON server to manage data for the Glassdale PD and Daily Journals apps :)",
+      "mood": "happy",
+      "id": 4
+    }
+  ]
+}
