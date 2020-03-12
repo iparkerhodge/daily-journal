@@ -1,4 +1,4 @@
-import { saveEntry } from "../JournalDataProvider.js"
+import { saveEntry } from "../Entry/JournalDataProvider.js"
 
 const contentTarget = document.querySelector(".journal")
 
@@ -50,6 +50,7 @@ contentTarget.addEventListener("click", clickEvent => {
 
         // Change API state and application state
         saveEntry(newEntry)
+        location.replace("entries.html")
     }
 })
 

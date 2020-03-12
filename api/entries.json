@@ -24,7 +24,7 @@
     {
       "date": "2020-03-11",
       "concept": "APIs",
-      "entry": "Today I learned how to set up a local API using JSON server to manage data for the Glassdale PD and Daily Journals apps :)",
+      "entry": "Today I learned to set up a JSON server to use a local API to manage the data for this app",
       "mood": "happy",
       "id": 4
     }
