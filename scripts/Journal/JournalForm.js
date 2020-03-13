@@ -4,8 +4,8 @@ const contentTarget = document.querySelector(".journal")
 
 const render = () => {
     contentTarget.innerHTML = `
+    <form class="journal__form" action="entries.html">
     <h1 class="title">Daily Journal</h1>
-    <form>
         <fieldset>
             <label for="journalDate">Date of entry</label><br>
             <input type="date" name="journalDate" id="journalDate">
@@ -26,7 +26,6 @@ const render = () => {
                 <option value="happy">happy</option>
             </select>
         </fieldset>
-        <br>
         <button id="saveEntry">Save Entry</button>
     </form>
     `

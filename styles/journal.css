@@ -1,6 +1,13 @@
 .journal {
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     text-align: center;
+}
+
+.journal__form {
+    width: 40%;
+    justify-content: center;
 }
 
 .image {

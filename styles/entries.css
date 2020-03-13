@@ -12,3 +12,8 @@
 .entry__date {
     font-weight: bold;
 }
+
+.entryContainer {
+    overflow: scroll;
+    height: 85vh;
+}

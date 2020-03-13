@@ -27,6 +27,13 @@
       "entry": "Today I learned to set up a JSON server to use a local API to manage the data for this app",
       "mood": "happy",
       "id": 4
+    },
+    {
+      "date": "2020-03-11",
+      "concept": "Zoom",
+      "entry": "Today we learned how to attend a remote class session using zoom bc COVID-19 ruins everything.",
+      "mood": "sad",
+      "id": 5
     }
   ]
 }
