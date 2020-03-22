@@ -5,28 +5,24 @@ const contentTarget = document.querySelector(".journal")
 const render = () => {
     contentTarget.innerHTML = `
     <form class="journal__form" action="entries.html">
-    <h1 class="title">Daily Journal</h1>
+    <header class="title">Daily Journal</header>
         <fieldset>
-            <label for="journalDate">Date of entry</label><br>
+            <label for="journalDate" class="formLabel">Date of entry</label>
             <input type="date" name="journalDate" id="journalDate">
-        </fieldset>
-        <fieldset>
-            <label for="journalConcepts">Concepts covered</label><br>
-            <input type="text" name="journalConcepts" id="journalConcepts" value="React.js">
-        </fieldset>
-        <fieldset>
-            <label for="journalEntry">Journal entry</label><br>
-            <textarea name="journalEntry" id="journalEntry" cols="42" rows="8">Today we learned...</textarea>
-        </fieldset>
-        <fieldset>
-            <label for="journalMood">Mood for the day</label><br>
+            <label for="journalConcepts" class="formLabel">Concepts covered</label>
+            <input type="text" name="journalConcepts" id="journalConcepts" value="React.js"><br>
+            <label for="journalEntry" class="formLabel">Journal entry</label><br>
+            <textarea name="journalEntry" id="journalEntry" cols="42" rows="5">Today we learned...</textarea><br>
+            <label for="journalMood" class="formLabel">Mood for the day</label>
             <select name="journalMood" id="journalMood">
+                <option value="utterly despondent">utterly despondent</option>
                 <option value="sad">sad</option>
                 <option value="ok">ok</option>
                 <option value="happy">happy</option>
+                <option value="abundantly jolly">abundantly jolly</option>
             </select>
+            <button id="saveEntry">Save Entry</button>
         </fieldset>
-        <button id="saveEntry">Save Entry</button>
     </form>
     `
 }

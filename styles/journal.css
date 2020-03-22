@@ -1,15 +1,55 @@
 .journal {
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: flex-start;
     text-align: center;
+    color: #2962ff;
+}
+
+.journal fieldset {
+    border: 3px solid #2962ff;
+    border-radius: 3px;
+    box-shadow: 2px 1px;
+}
+
+.journal fieldset:hover {
+    border: 3px solid #ffea00;
+    box-shadow: 2px 1px #ffea00;
 }
 
 .journal__form {
-    width: 40%;
     justify-content: center;
+    font-weight: bold;
 }
 
-.image {
-    opacity: 0.9;
+.title {
+    font-weight: bold;
+    height: fit-content;
+    font-size: 18px;
+    text-decoration: underline #ffea00;
+}
+
+#journalDate, #journalConcepts, 
+#journalEntry, #journalMood{
+    color: #2962ff;
+    margin: 0px 2px;
+}
+
+textarea {
+    border: 2px solid #2962ff;
+    margin-bottom: 4px;
+}
+
+#saveEntry {
+    margin: 0px 10px;
+    background-color: #2962ff;
+    color: #ffea00;
+    border: 2px solid #ffea00;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+#saveEntry:hover {
+    background-color: #ffea00;
+    color: #2962ff;
 }
